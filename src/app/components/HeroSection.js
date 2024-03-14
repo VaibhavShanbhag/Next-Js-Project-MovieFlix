@@ -29,7 +29,7 @@ const HeroSection = ({title,imageUrl}) => {
                         </Link>
                     </div>
                     <div className={herostyle.hero_image}>
-                        <Image src={imageUrl} width={500} height={500}/>
+                        <Image src={imageUrl} width={500} height={500} alt="Section Image"/>
                     </div>
                 </div>
             </div>
